@@ -31,20 +31,23 @@
       </svg>
     </a>
   </header>
+  <?php 
+  //print_r($obj);
+  //print_r($obj['0']) 
+  ?>
 
   <h1>Digital Talent Scholarship</h1>
-
+  <hr>
   <article>
 
-    <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt="">
-    <h2 id="title1"></h2>
-    <p id="article1">I love cheese, especially manchego swiss. ☺ Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
-  
+    <!-- <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt=""> -->
+    <h2 id="title1"><?php echo $obj['0']->title ?></h2>
+    <p id="article1"><?php echo $obj['0']->description ?></p>
 
     <hr>
-    <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt="">
-    <h2 id="title2"></h2>
-    <p id="article2">I love cheese, especially manchego swiss. ☺ Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
+    <!-- <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt=""> -->
+    <h2 id="title2"><?php echo $obj['1']->title ?></h2>
+    <p id="article1"><?php echo $obj['1']->description ?></p>
   
 
   </article>
@@ -55,10 +58,10 @@
       <a href="https://twitter.com/home?status=https://github.com/udacity/responsive-images" class="zocial-twitter">Twitter</a>
       <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/udacity/responsive-images" class="zocial-facebook">Facebook</a>
       <a href="https://plus.google.com/share?url=https://github.com/udacity/responsive-images" class="zocial-googleplus">Google+</a>
-      <a href="h<?php echo base_url() ?>assets/ttp://digg.com/submit?phase=2&url=https%3A%2F%2Fgithub.com%2Fudacity%2Fresponsive-images&title=Udacity%20nano%20course%3A%20Responsive%20Images&bodytext=Responsive%20images%20for%20your%20sites%20and%20web%20apps&topic=tech_news" class="zocial-digg">Digg</a>
+      <a href="<?php echo base_url() ?>assets//github.com/udacity/responsive-images/tree/master/project/final" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+
     </div>
 
-    <a href="<?php echo base_url() ?>assets//github.com/udacity/responsive-images/tree/master/project/final" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
 
   </footer>
 
