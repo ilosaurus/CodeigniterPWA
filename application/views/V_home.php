@@ -36,16 +36,17 @@
   //print_r($obj['0']) 
   ?>
 
-  <h1>Digital Talent Scholarship</h1>
+<h3>Digital Talent Scholarship</h3>
+
   <hr>
   <article>
 
-    <!-- <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt=""> -->
+    <img src="<?php echo base_url() ?>assets/images/digitalent.jpg" alt="">
     <h2 id="title1"><?php echo $obj['0']->title ?></h2>
     <p id="article1"><?php echo $obj['0']->description ?></p>
 
     <hr>
-    <!-- <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt=""> -->
+    <img src="<?php echo base_url() ?>assets/images/digitalent.jpg" alt="">
     <h2 id="title2"><?php echo $obj['1']->title ?></h2>
     <p id="article1"><?php echo $obj['1']->description ?></p>
   

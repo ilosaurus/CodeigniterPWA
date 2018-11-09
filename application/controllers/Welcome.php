@@ -8,7 +8,6 @@ class Welcome extends CI_Controller {
 		$json = file_get_contents('http://localhost/cirest/index.php/article');
 		$data['obj'] = json_decode($json);
 		// echo "<pre>"; print_r($obj);echo "</pre>";
-		
 		$this->load->view('V_home', $data);
 	}
 }
