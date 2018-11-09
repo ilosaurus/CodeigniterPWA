@@ -1,17 +1,95 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Lonely Globe Advisor</title>
+
+  <meta name="description" content="Udacity Responsive Images course project" />
+  <meta name="author" content="//samdutton.com">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta charset="utf-8">
+  <meta itemprop="name" content="Udacity Responsive Images course project">
+  <meta itemprop="image" content="images/icon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta id="theme-color" name="theme-color" content="#307699">
+
+  <base target="_blank">
+
+  <title>Digital Talent Scholarship</title>
+
+  <link rel="icon" sizes="192x192" href="<?php echo base_url() ?>assets/images/icon.png">
+  <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/main.css" />
+  <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+  <meta name="udacity-grader" content="http://udacity.github.io/responsive-images/project/project-grader.json" unit-tests="http://udacity.github.io/responsive-images/project/project-grader.js">
+
 </head>
+
 <body>
-  <h1>Top Hotels in Rome <?php echo base_url() ?></h1>
-  <ol>
-    <li>Villa Domus - Via Piacenza 9, Rome, Italy</li>
-    <li>Hotel Trivelli - Piazza Barberini 11, Rome, Italy</li>
-  </ol>
+  <header>
+    <a href="<?php echo base_url() ?>assets//github.com/udacity/responsive-images/" title="Home page for course examples">
+      <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <title>Responsive logo</title>
+        <path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-10c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"></path>
+      </svg>
+    </a>
+  </header>
+
+  <h1>Digital Talent Scholarship</h1>
+
+  <article>
+
+    <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt="">
+    <h2 id="title1"></h2>
+    <p id="article1">I love cheese, especially manchego swiss. ☺ Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
+  
+
+    <hr>
+    <img src="<?php echo base_url() ?>assets/images/still_life-1600_large_2x.jpg" alt="">
+    <h2 id="title2"></h2>
+    <p id="article2">I love cheese, especially manchego swiss. ☺ Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
+  
+
+  </article>
+
+  <footer>
+
+    <div id="social">
+      <a href="https://twitter.com/home?status=https://github.com/udacity/responsive-images" class="zocial-twitter">Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=https://github.com/udacity/responsive-images" class="zocial-facebook">Facebook</a>
+      <a href="https://plus.google.com/share?url=https://github.com/udacity/responsive-images" class="zocial-googleplus">Google+</a>
+      <a href="h<?php echo base_url() ?>assets/ttp://digg.com/submit?phase=2&url=https%3A%2F%2Fgithub.com%2Fudacity%2Fresponsive-images&title=Udacity%20nano%20course%3A%20Responsive%20Images&bodytext=Responsive%20images%20for%20your%20sites%20and%20web%20apps&topic=tech_news" class="zocial-digg">Digg</a>
+    </div>
+
+    <a href="<?php echo base_url() ?>assets//github.com/udacity/responsive-images/tree/master/project/final" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+
+  </footer>
+
 </body>
 </html>
+<script>
+
+  // let url = "data.json";
+  // var data_ ;
+
+  // fetch(url,  {mode: 'cors'})
+  // .then(function (res) {
+  //     return res.json()
+  // })
+  // .then(function (data)<?php echo base_url() ?>assets/ {
+     
+  //     data_ = data
+  //     console.log(data[0]);
+  //     document.getElementById("title1").innerHTML = data[0].title;
+  //     document.getElementById("title2").innerHTML = data[1].title;
+  //     document.getElementById("article1").innerHTML = data[0].description;
+  //     document.getElementById("article2").innerHTML = data[1].description;
+  // }).catch(function (err) {
+  //     console.log(err)
+  // })
+
+</script>
+
+
 <script src="https://www.talater.com/upup/upup.min.js"></script>
+
 <script>
 	UpUp.start({
 		'cache-version' : 'v2',
